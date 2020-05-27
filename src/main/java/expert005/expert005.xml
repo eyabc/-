@@ -7,8 +7,8 @@
 ">
     <context:annotation-config/>
 
-    <bean id="tire" class="main.java.expert004.KoreaTire"></bean>
-    <bean id="americaTire" class="main.java.expert004.AmericaTire"></bean>
+    <bean id="tire" class="main.java.expert005.KoreaTire"></bean>
+    <bean id="americaTire" class="main.java.expert005.AmericaTire"></bean>
 
-    <bean id="car" class="main.java.expert004.Car"></bean>
+    <bean id="car" class="main.java.expert005.Car"></bean>
 </beans>
