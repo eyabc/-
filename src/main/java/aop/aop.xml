@@ -17,6 +17,7 @@
     <aop:config>
         <aop:aspect ref="myAspect">
             <aop:before method="before" pointcut="execution(* runSomething())"></aop:before>
+            <aop:after method="lockDoor" pointcut="execution(* runSomething())"></aop:after>
         </aop:aspect>
     </aop:config>
 </beans>
