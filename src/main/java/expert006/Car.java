@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import javax.annotation.Resource;
 
 public class Car {
-    @Resource
+    @Autowired
     Tire tire;
 
     public String getTireBrand() {
