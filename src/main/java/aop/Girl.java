@@ -1,4 +1,4 @@
-package main.java.aop;
+package aop;
 
 public class Girl {
     public void runSomething() {
