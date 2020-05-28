@@ -9,8 +9,14 @@
        http://www.springframework.org/schema/beans/spring-beans.xsd">
 
     <aop:aspectj-autoproxy />
+
     <bean id="myAspect" class="aop.MyAspect" />
     <bean id="boy" class="aop.Boy" />
     <bean id="girl" class="aop.Girl" />
 
+    <aop:config>
+        <aop:aspect ref="myAspect">
+            <aop:before method="before" pointcut="execution(* runSomething())"></aop:before>
+        </aop:aspect>
+    </aop:config>
 </beans>
