@@ -1,4 +1,4 @@
-package test.java.expert001_03;
+package expert001_03;
 
 import main.java.expert001_03.AmericaTire;
 import main.java.expert001_03.Car;

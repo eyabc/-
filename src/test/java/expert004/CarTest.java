@@ -1,4 +1,4 @@
-package test.java.expert004;
+package expert004;
 
 import main.java.expert004.Car;
 import org.junit.Test;

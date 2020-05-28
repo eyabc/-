@@ -1,9 +1,9 @@
-package test.java.expert001_01;
-
-import static org.junit.Assert.*;
+package expert001_01;
 
 import main.java.expert001_01.Car;
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 public class CarTest {
     @Test
