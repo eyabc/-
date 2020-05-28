@@ -1,11 +1,12 @@
 package main.java.expert006;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 
 import javax.annotation.Resource;
 
 public class Car {
-    @Resource(name="tire1")
+    @Resource(name="tire")
     Tire tire;
 
     public String getTireBrand() {
