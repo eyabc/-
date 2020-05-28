@@ -11,5 +11,6 @@
     <aop:aspectj-autoproxy />
     <bean id="myAspect" class="aop.MyAspect" />
     <bean id="boy" class="aop.Boy" />
+    <bean id="girl" class="aop.Girl" />
 
 </beans>
