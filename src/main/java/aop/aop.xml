@@ -14,4 +14,11 @@
     <bean id="boy" class="aop.Boy" />
     <bean id="girl" class="aop.Girl" />
 
+    <aop:config>
+        <aop:pointcut expression="execution(* runSomething())" id="iampc"/>
+        <aop:aspect ref="myAspect">
+            <aop:before method="before" pointcut-ref="iampc"></aop:before>
+            <aop:after method="lockDoor" pointcut-ref="iampc"></aop:after>
+        </aop:aspect>
+    </aop:config>
 </beans>
